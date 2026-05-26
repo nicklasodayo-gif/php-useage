@@ -59,6 +59,16 @@
     <?php
     $username = $_POST['username'];
     echo $username;
+    ?>
+    <br>
+    
+    <?php
+    $age = 20;
+    if($age >= 18) {
+        echo "adult";
+    } else {
+        echo "minor";
+    }
 
     ?>
 
